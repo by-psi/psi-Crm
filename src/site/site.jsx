@@ -1,0 +1,23 @@
+import React from 'react';
+
+import Menu from './pages/menu';
+import Banner from './pages/banner';
+import Destaques from './pages/destaques';
+import Depoimentos from './pages/depoimentos';
+import Planos from './pages/planos';
+import Footer from './pages/footer';
+
+function Site() {
+  return (
+    <div>
+      <Menu/>
+      <Banner/>
+      <Destaques/>
+      <Depoimentos/>
+      <Planos/>
+      <Footer/>
+    </div>
+  );
+}
+
+export default Site;

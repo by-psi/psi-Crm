@@ -1,0 +1,22 @@
+.form-container {
+  height: 100vh;
+
+}
+.form-signin {
+  width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin img {
+  border-radius: 50%;
+  width: 25%;
+  margin: 20px;
+}
+.form-signin input[type="password"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-links a {
+  text-decoration: none;
+  font-size: 10pt;
+}
